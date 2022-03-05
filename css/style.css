@@ -138,11 +138,14 @@ h6 {
   width: 595px;
   height: 63px;
   background: #D0ED5A;
+  margin-bottom: 3px;
 }
 .green{
   height: 63px;
   width: 595px;
   background: #57B948;
+  margin-bottom: 2px;
+  
 }
 
 .violet{
@@ -150,4 +153,31 @@ h6 {
   width: 595px;
   background: #946DD6;
 
+}
+
+.grey{
+  width: 595px;
+  height: 177px;
+  background: #C4C4C4;
+  margin-top: 11px;
+  padding-top: 9px;
+}
+
+.blue{
+  width: 580px;
+  height: 48px;
+  background: #3F82C0;
+  margin-left: 8px;
+  
+}.brown{
+  width: 580px;
+  height: 48px;
+  background: #AE5858;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.title2{
+  font-size: 24px;
+  color: #FFFFFF;
 }
