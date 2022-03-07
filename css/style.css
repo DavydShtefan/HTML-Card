@@ -72,68 +72,76 @@ h6 {
   font-weight: 400;
 }
 
-.wrapper {
+.wrapper{
+  width: 996px;
+  height: 155px;
+  background: #A03F3F;
+  border-radius: 23px;
   display: flex;
-}
-
-.image {
-  width: 560px;
-  height: 420px;
-}
-
-.title {
-  font-size: 16px;
-  color: #3098f3;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.title_2 {
-  font-size: 32px;
-  color: #05051e;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-.nevim{
-  background: #3098F3;
-  height: 20px;
-  width: 20px;
-  border-radius: 100%;
-}
-
-.title_3{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 18px;
-  color: #05051E;
-}
-
-.conteiner{
-  display: flex; 
-}
-
-.conteiner_2{
-  justify-content: center;
-}
-
-.nevim_2{
-  height: 20px;
-  width: 20px;
-  border-radius: 100%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: space-around;
+  align-items: center;
   
 }
 
-.image_2{
-  width: 560px;
-  height: 420px;
+.item{
+  width: 280px;
+  height: 96px;
+  background: #E7DB77;
+  border: 2px solid #000000;
+
 }
 
-.nevim_3{
-  width: 250px;
-  height: 57px;
-  background: #3098F3;
-  border-radius: 100px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 18px;
-  color: #FFFFFF;
+.wrapper_2{
+  width: 324px;
+  height: 630px;
+  background: #A03F3F;
+  border-radius: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
+
+.wrapper_3{
+  display: flex;
+  background: #A03F3F;
+  border-radius: 38px;
+  flex-direction: column;
+  row-gap: 135px;
+  width: 324px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  align-items: center;
+
+
+}.wrapper_4{
+  display: flex;
+  width: 324px;
+  height: 630px;
+  background: #A03F3F;
+  border-radius: 38px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.wrapper_5{
+  display: flex;
+  width: 996px;
+  height: 155px;
+  background: #A03F3F;
+  border-radius: 23px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  width: 996px;
+  flex-wrap: wrap;
+  column-gap: 12px;
+  row-gap: 10px;
+}
+
