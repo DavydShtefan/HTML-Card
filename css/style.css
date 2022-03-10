@@ -72,56 +72,85 @@ h6 {
   font-weight: 400;
 }
 
-.image {
-  background: url("../img/metro\ newyork.jpg");
-  width: 481px;
-  height: 588px;
-}
-
-.title {
-  font-weight: 500;
-  font-size: 36px;
-  color: #8a5353;
-  font-family: sans-serif;
-}
-
-.subtitle {
-  font-weight: 600;
-  font-size: 48px;
-  color: #2e2626;
-  font-family: sans-serif;
-}
-
-.card {
+.wrapper {
   display: flex;
-  background: #efefef;
-  box-shadow: 2px 2px 1px 2px rgba(0, 0, 0, 0.25);
-  width: 479px;
-  height: 587px;
+  width: 908px;
+  height: 925px;
+  background: #e35c5c;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dark-brown-wrapper {
+  display: flex;
+  width: 434px;
+  height: 905px;
+  background: #311818;
   flex-direction: column;
-  margin-left: 19px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.icon {
-  width: 442px;
-  height: 81px;
-  background: #8a5353;
-  border-radius: 16px;
-  font-weight: 600;
-  font-size: 36px;
-  color: #ffffff;
-  font-family: sans-serif;
-}
-
-.text {
-  font-size: 24px;
-  font-family: sans-serif;
-}
-
-.container {
+.violet-wrapper {
   display: flex;
+  width: 434px;
+  height: 905px;
+  background: #632379;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.container_2 {
-  display: flex;
+.green-block {
+  width: 407px;
+  height: 158px;
+  background: #2fa349;
+  border: solid 5px;
 }
+
+.blue-wrapper_1{
+  display: flex;
+  width: 407px;
+  height: 196px;
+  background: #2e8a9e;
+  border: 3px solid #000000;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+
+.grey-block {
+  width: 379px;
+  height: 59px;
+  background: #C4C4C4;
+  border: solid 1px;
+}
+
+.yellow-block {
+  width: 143px;
+  height: 159px;
+  background: #CDD763;
+}
+
+
+.blue-wrapper_2{
+  display: flex;
+  width: 407px;
+  height: 196px;
+  background: #2e8a9e;
+  border: 3px solid #000000;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 22px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+
