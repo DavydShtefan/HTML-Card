@@ -131,13 +131,14 @@ h6 {
 .description {
   width: 1120px;
   height: 392px;
+  margin: auto;
   padding-top: 160px;
-  padding-left: 160px;
+  display: flex;
 }
 
 .description-picture {
-  height: 284px;
-  width: 284px;
+  height: 196px;
+  width: 196px;
 }
 
 .description-text {
@@ -153,8 +154,6 @@ h6 {
   width: 1120px;
   height: 420px;
   display: flex;
-  padding-top: 160px;
-  padding-left: 160px;
 }
 
 .wrapper-title {
@@ -228,15 +227,11 @@ h6 {
   width: 1120px;
   height: 1041px;
   gap: 80px;
+  align-items: center;
+  margin: auto;
+  padding-top: 160px;
 }
 
-.wrapper_2 {
-  width: 1120px;
-  height: 420px;
-  display: flex;
-  padding-top: 160px;
-  padding-left: 160px;
-}
 
 .wrapper-cont_2 {
   display: flex;
@@ -245,7 +240,6 @@ h6 {
   padding-top: 40px;
   width: 560px;
   height: 420px;
-  gap: 170px;
 }
 
 .wrapper-card_2 {
@@ -290,4 +284,12 @@ h6 {
   border: 0;
   padding-top: 16px;
   padding-bottom: 15px;
+}
+
+.discription-picture-wrapper{
+  width: 416px;
+  height: 392px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
