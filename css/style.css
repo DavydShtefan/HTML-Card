@@ -72,12 +72,204 @@ h6 {
   font-weight: 400;
 }
 
-.wrapper {
+.header {
+  width: 100%;
+  height: 81px;
+  background: #3098f3;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 161px;
+  padding-right: 161px;
+}
+
+.logo {
+  width: 114.12px;
+  height: 24.03px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 20.0209px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.section_1 {
+  background: #3098f3;
+  width: 100%;
+  height: 801px;
+  display: flex;
+  align-items: center;
+  padding-left: 160px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 51px;
+  letter-spacing: 1.12px;
+  color: #ffffff;
+  font-family: sans-serif;
+  line-height: 67px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 52px;
+  letter-spacing: 1.12px;
+  color: #ffcc00;
+  line-height: 67px;
+}
+
+.description {
   width: 1120px;
-  height: 424px;
-  left: 390px;
-  top: 341px;
+  height: 392px;
+  padding-top: 160px;
+  padding-left: 160px;
+}
+
+.description-picture {
+  height: 284px;
+  width: 284px;
+}
+
+.description-text {
+  width: 470px;
+  height: 303px;
+  font-weight: 400;
+  font-size: 42px;
+  font-family: sans-serif;
+  color: #05051e;
+}
+
+.wrapper {
+  width: 1120px;
+  height: 420px;
+  display: flex;
+  padding-top: 160px;
+  padding-left: 160px;
+}
+
+.wrapper-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: sans-serif;
+  letter-spacing: 0.16px;
+  color: #3098f3;
+}
+
+.wrapper-subtitle {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #05051e;
+  font-family: sans-serif;
+}
+
+.wrapper-card {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  gap: 10px;
+  width: 560px;
+}
+
+.wrapper-button {
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+  gap: 8px;
+}
+
+.button {
+  width: 24px;
+  height: 25px;
+  border: 2px solid #3098f3;
+  border-radius: 50%;
+  background-color: #3098f3;
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper-button-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #05051e;
+  font-family: sans-serif;
+}
+
+.wrapper-cont {
+  display: flex;
+  flex-direction: column;
+  background: rgba(204, 203, 203, 0.815);
+  padding-top: 40px;
+  width: 560px;
+  height: 420px;
+  gap: 170px;
+}
+
+.picture {
+  width: 560px;
+  height: 420px;
+}
+
+.wrapper-original {
+  display: flex;
+  flex-direction: column;
+  width: 1120px;
+  height: 1041px;
+  gap: 80px;
+}
+
+.wrapper_2 {
+  width: 1120px;
+  height: 420px;
+  display: flex;
+  padding-top: 160px;
+  padding-left: 160px;
+}
+
+.wrapper-cont_2 {
+  display: flex;
+  flex-direction: column;
+  background: rgba(204, 203, 203, 0.815);
+  padding-top: 40px;
+  width: 560px;
+  height: 420px;
+  gap: 170px;
+}
+
+.wrapper-card_2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  gap: 10px;
+  width: 560px;
+}
+
+.wrapper-button_2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.button_2 {
+  width: 24px;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
 }
 
 .image {
@@ -85,52 +277,17 @@ h6 {
   height: 420px;
 }
 
-.card-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-left: 40px;
-  margin-top: 40px;
-  margin-bottom: 41px;
-}
-
-.text-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.16px;
-  color: #3098f3;
-  font-family: sans-serif;
-}
-
-.text {
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 38px;
-  color: #05051e;
-  font-family: sans-serif;
-}
-.button-wrapper {
-  display: flex;
-  flex-direction: row;
-}
-
-.button {
-  background-color: #3098f3;
-  border-radius: 100%;
-  width: 25px;
-  height: 25px;
-}
-
-.text__2 {
-  font-weight: 400;
+.button_3 {
+  font-weight: 700;
   font-size: 18px;
-  line-height: 23px;
-  color: #05051e;
+  line-height: 25px;
   font-family: sans-serif;
+  color: #ffffff;
+  background: #3098f3;
+  border-radius: 100px;
+  width: 250px;
+  height: 57px;
+  border: 0;
+  padding-top: 16px;
+  padding-bottom: 15px;
 }
